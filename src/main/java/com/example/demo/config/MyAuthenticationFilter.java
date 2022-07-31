@@ -25,7 +25,7 @@ import java.util.stream.Collectors;
 
 @Slf4j
 @RequiredArgsConstructor
-public class MyAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
+public class  MyAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
     final AuthenticationManager authenticationManager;
 
     @Override
